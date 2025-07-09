@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: telegram-v2ray-bot
+    runtime: python
+    pythonVersion: 3.11
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: python telegram-v2ray-bot/main.py

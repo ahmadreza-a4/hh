@@ -12,7 +12,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram import F
 
 # توکن و آی‌دی مدیر
-API_TOKEN = os.getenv("BOT_TOKEN", "توکن واقعی‌ات را اینجا بگذار موقتاً")
+API_TOKEN = "8156768081:AAGFhf3ME1jggGjBNl2HraCPSImCPLS8pww"
 ADMIN_ID = 694246194
 
 # تنظیمات لاگ
